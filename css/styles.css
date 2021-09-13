@@ -1,0 +1,29 @@
+body {
+    background-color: gray;
+    color: white
+}
+
+img {
+    width: 200px;
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    width: 100%
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
