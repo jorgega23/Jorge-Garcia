@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: black;
     color: white
 }
 
@@ -26,4 +26,18 @@ a {
     color: white;
     text-decoration: none;
     margin-left: 10px;
+}
+
+table {
+    border: 1px solid white;
+    border-collapse:collapse;
+}
+
+table td {
+    border:1px solid white;
+    padding:20px;
+}
+
+table tr:hover {
+    background:#ff0000;
 }
