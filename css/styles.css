@@ -4,8 +4,12 @@ body {
     font-family: JosefineSans, Helvetica, sans-serif;
 }
 
-img {
+img#logo {
     width: 200px;
+}
+
+.t-50 {
+    width: 50%;
 }
 
 header {
@@ -46,4 +50,10 @@ table tr:hover {
 @font-face {
     font-family: JosefineSans;
     src: url(../fonts/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+article{
+    text-align: center;
+    margin:32px auto;
+    width: 80%;
 }
