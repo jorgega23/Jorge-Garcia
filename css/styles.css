@@ -28,6 +28,7 @@ ul {
 }
 
 a {
+    font-family: Barlow;
     color: white;
     text-decoration: none;
     margin-left: 10px;
@@ -50,6 +51,11 @@ table tr:hover {
 @font-face {
     font-family: JosefineSans;
     src: url(../fonts/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Barlow;
+    src: url(../fonts/Barlow-SemiBold.ttf);
 }
 
 article{
