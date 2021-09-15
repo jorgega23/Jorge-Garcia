@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Mi primera pagina web</title>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: dodgerblue;
+        }
+
+        .flex-container > div {
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <p>
+        Un layout flexible debe tener un elemento padre con la propiedad <em>display</em> establecida como <em>flex</em>.
+    </p>
+
+    <p>
+        Los elementos hijos del contenedor flexible se convierten automaticamente en elementos flexibles.
+    </p>
+</body>
+
+</hmtl>
