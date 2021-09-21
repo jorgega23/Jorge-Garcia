@@ -86,3 +86,43 @@ article {
 footer {
     text-align: center;
 }
+
+div#slider {
+    background-image: url(https://hips.hearstapps.com/es.h-cdn.co/cades/contenidos/11121/cars3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 160px);
+    animation: carsmovies 5s infinite;
+    animation-delay: 0.3s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes carsmovies {
+    0% {
+        background-image: url(../imagenes/cars3\ \(1\).jpg);
+    }
+
+    25% {
+        background-image: url(../imagenes/descarga.jpg);
+    }
+
+    50% {
+        background-image: url(../imagenes/images.jpg);
+    }
+
+    75% {
+        background-image: url(../imagenes/maxresdefault.jpg);
+    }
+
+    100% {
+        background-image: url(../imagenes/maxresdefault\ \(1\).jpg);
+    }
+}
+
+article {
+    text-align: center;
+    /*margin: 32px auto; */
+    /* width: 80%; */
+}
