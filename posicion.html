@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de posicionamiento</title>
+    <style>
+        .row {
+            display: flex;
+        }
+
+        .cuadrado {
+            background-color: green;
+            border: 20px solid black;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+        }
+
+        .mini_cuadrado {
+            width: 80px;
+            height: 50px;
+            background-color: blue;
+            margin: 10px;
+        }
+
+        div.absolute {
+            position: absolute;
+            left: 500px;
+            top: 10px;
+        }
+
+        div.relative {
+            position: relative;
+            top: 20px;
+        }
+
+        div.fixed {
+            position: fixed;
+            left: 395px;
+            top: 300px
+        }
+
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="cuadrado">
+            <div id="mini_1" class="mini_cuadrado"></div>
+        </div>
+        <div>
+            <p>
+                Posición normal
+            </p>
+            <p>
+
+            </p>
+        </div>
+        <div class="cuadrado">
+            <div id="mini_2" class="mini_cuadrado"></div>
+        </div>
+        <div>
+            <p>
+                Posición absoluta
+            </p>
+            <div>
+                left: 500px;
+            </div>
+            <div>
+                top: 10px;
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cuadrado">
+            <div id="mini_3" class="mini_cuadrado"></div>
+        </div>
+        <div>
+            <p>
+                Posición relativa
+            </p>
+            <div>
+                top: 20px;
+            </div>
+        </div>        
+        <div class="cuadrado">
+            <div id="mini_4" class="mini_cuadrado"></div>
+        </div>
+        <div>
+            <p>
+                Posición fixed
+            </p>
+            <div>
+                left: 395px;
+            </div>
+            <div>
+                top: 300px;
+            </div>
+        </div>
+    </div>
+</body>
+</html>
