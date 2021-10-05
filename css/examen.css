@@ -1,0 +1,8 @@
+@font-face {
+    font-family: SFProDisplay;
+    src: url(/fonts/SFPRODISPLAYBOLD.OTF);
+}
+
+body {
+    font-family: SFProDisplay;
+}
